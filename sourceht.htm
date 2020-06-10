@@ -1,0 +1,51 @@
+<html>
+<head> 
+<title> "DFS ALGO" </title> 
+<link href="bootstrap.css"  rel="stylesheet" /> 
+<script src="dfs.js"    type="text/javascript" ></script>
+</head> 
+<body style="background-color: orange;"> 
+<header style="background-color: cyan; margin:auto; width:800px;"> <center> DFS ALGORITHM IMPLEMENTATION </center> </header> 
+<p> If you do not know about DFS Algorithm , you can <a href="https://www.youtube.com/watch?v=Y40bRyPQQr0&feature=youtu.be"> refer to GeeksForGeeks lecture</a> </p>
+<div style="position:absolute; top:100px; background-color: blanchedalmond; margin:auto; width:500px;" > 
+
+<label for= "no of nodes"  >Specify no of nodes in the graph</label>
+<input id="no of nodes" name="no of nodes" id="nodes" />
+<br> 
+<hr> 
+<label for="adj" >Give Adjacency Matrix -> </label> 
+<!--<input id="adj" name="adj" type="text" /> -->
+<textarea  id="adj" name="adj"></textarea>
+<br> 
+<hr> 
+<label for="values" >Give Node values -> </label> 
+<input id="values" name="values" type="text" /> 
+
+
+<br> 
+<br>
+
+
+
+<!--<center> <input style="background-color : skyblue;"  value="Generate DFS Order" onclick="main();"/>  </center> -->
+
+<center> <button style="background-color : skyblue; "  onclick="main()"/>Generate DFS Order   </button></center>
+
+
+</div> 
+
+<hr> 
+
+<div style="position:absolute; top: 400px; background-color: blanchedalmond;"> 
+<label id = "output1" style="background-color:yellow; display:none;"  >Here goes the DFS Order </label> 
+<br> 
+<br> 
+
+<p id = "output2" > </p>
+
+</div>
+</body>
+</head> 
+</html>
+ 
+ 
